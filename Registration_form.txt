@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <title>form</title>
+          
+     </head>
+     <body>
+            <h2 align="center"style="background-color:Red;color:white;font-family:monospace">
+             Registration Form </h2>  
+              
+            <br><br>
+            <form>
+                  <label for="firstnamename">FirstName:</label><br>
+                  <input type="text" name="firstname" id="firstname">
+                  <br><br>
+                  <label for="lastname">LastName:</label><br>
+                  <input type="text" name="lastName" id="lastname">
+                  <br><br>
+                  <label for="email">Email Address:</label><br>
+                  <input type="email" name="email" id="email">
+                  <br><br>
+                  <label for="password">Password:</label><br>
+                  <input type="password" name="password" id="password">
+                  <br><br>
+                  <label for="dob">Date of Birth:</label><br>
+                  <input type="date" name="dob" id="dob">
+                  <br><br>
+                  <label for="dob">Choose your photo:</label>
+                  <input type="file" name="photo" id="photo">
+                  <br><br>
+                  <label for="gender">Gender:</label>
+                  <input type="radio" name="gender" id="gender"value="male">Male 
+                  <input type="radio" name="gender" id="gender"value="female">Female
+                  <input type="radio" name="gender" id="gender"value="others">Others
+                  <br><br>
+                  <label for="religion">Religion:</label>
+                  <input type="radio" name="religion" id="religion"value="islam">Islam
+                  <input type="radio" name="religion" id="religion"value="hindu">Hindu
+                  <input type="radio" name="religion" id="religion"value="chistian">Chistian
+                  <input type="radio" name="religion" id="religion"value="others">Others
+                  <br><br>
+                  <select name="Nationality">
+                  <option value="Bangladeshi">Bangladeshi</option>
+                  <option value="Indian">Indian</option>
+                  <option value="Pakistani">Pakistani</option>
+
+                   
+                  </select>
+
+            </form>
+     </body>
+
+</html>
